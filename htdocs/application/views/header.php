@@ -67,6 +67,7 @@
       </a>
    </li>
    
+   <!-- MENU LATERAL - ESCONDE O "IDIOMA"
    <li>
       <ul class="collapsible collapsible-accordion">
          <li class="bold">
@@ -80,6 +81,7 @@
          </li>
       </ul>
    </li>
+   -->
    
    <li>
     <a href="<?php echo site_url('Main/events?lang=' . $_SESSION['lang'])?>" class="collapsible-header waves-effect waves-light"><i class="material-icons">date_range</i><?php echo $lang['events'];?></a>
@@ -92,7 +94,13 @@
    <li>
       <div class="divider"></div>
    </li>
+
+   <!-- MENU LATERAL - ESCONDE O "SOBRE"
    <li><a class="subheader"><?php echo $lang['about'];?></a></li>
+   -->
+   <!-- MENU LATERAL - ESCONDE O "CONFIGURAÇÕES"
    <li><a class="waves-effect" href="#!"><?php echo $lang['config'];?></a></li>
+   -->
+   
 </ul>
 <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a> 

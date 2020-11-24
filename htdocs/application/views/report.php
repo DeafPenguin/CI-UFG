@@ -7,6 +7,7 @@
                 <div class="col s12 m10 offset-m1 bottom-line">
                     <h1 class="header"><?php echo $lang['report'];?></h1>
                 </div>
+
                 <div class="col s12 ">          
                     <div class="card">
                         <div class="card-image">
@@ -23,7 +24,10 @@
                         </div>
                     </div>
                 </div>   
+
                 <br/>
+
+                <!-- ESCONDE O RELATÓRIO DE CONFIRMAÇÃO DA PÁGINA DE RELATÓRIOS
                 <div class="col s12">
                     <div class="card">
                         <div class="card-image">
@@ -40,7 +44,10 @@
                         </div>
                     </div>
                 </div>
+                -->
+
                 <br/>
+
                 <div class="col s12">
                     <div class="card">
                         <div class="card-image">
@@ -50,10 +57,10 @@
                         
                         </div>
                         <div class="card-content">
-                            <p><?php echo $lang['reportListInterpreterLabel'];?></p>
+                             <p><?php echo $lang['reportListInterpreterLabel'];?></p>
                         </div>
                         <div class="card-action">
-                            <a href="<?php echo site_url('Main/slislist?lang=' . $_SESSION['lang'])?>" class="waves-effect waves-light btn-small indigo modal-trigger"><?php echo $lang['reportListInterpreter'];?></a>
+                            <a href="<?php echo site_url('Main/slislist?lang=' . $_SESSION['lang'])?>" class="waves-effect waves-light btn-small indigo modal-trigger"><?php echo $lang['reportListInterpreter'];?></a> 
                         </div>
 
                     </div>

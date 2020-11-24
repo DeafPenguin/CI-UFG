@@ -1,20 +1,29 @@
 <?php
     $lang = array(
-            "loginSubtitle" => "Por favor, faça seu login",
-            "loginUserInput" => "Digite seu email",
-            "loginPasswordInput" => "Digite sua senha",
-            "loginRemeberChck" => "Lembre de min",
-            "loginSumbit" => "Logar",
+            "loginSubtitle" => "Coloque e-mail e senha para entrar",
+            "loginUserInput" => "Digite seu e-mail",
+
+            //"loginPasswordInput" => "Digite sua senha",
+            "loginPasswordInput" => "Senha",
+
+            "loginRemeberChck" => "Lembre de mim",
+            "loginSumbit" => "Entrar",
             "language" => "Idioma",
             "signlanguage" => "Língua oral",
             "pt" => "Português",
             "en" => "Inglês",
-            "events" => "Eventos",
+
+            //"events" => "Eventos",
+            "events" => "Agenda de solicitações",
+
             "about" => "Sobre",
             "config" => "Configurações",
             "calendar-lang" => "pt-br",
             "logout" => "Sair",
-            "newEvent" => "Novo Evento",         
+
+            //"newEvent" => "Novo Evento",
+            "newEvent" => "Nova solicitação de intéprete para evento",     
+
             "title" => "Título",
             "date" => "Data",
             "sdate" => "Data Início",
@@ -24,19 +33,32 @@
             "confirm" => "Confirmar",
             "cancel" => "Cancelar",
             "back" => "Voltar",
-            "register" => "Cadastro",
-            "report" => "Relatório",
+
+            //"register" => "Cadastrar Eventos e Usuários",
+            "register" => "Cadastrar Eventos e Usuários",
+
+            //"report" => "Relatório",
+            "report" => "Relatórios",
+
             "description" => "Descrição",
             "chooseInterpreter" => "Sugira até três intérpretes para participar deste evento.",
             "select" => "Selecione",
             "place" => "Local",
-            "registerInterpreter" => "Cadastrar Intérprete",
-            "registerInterpreterLabel" =>  "Clique no botão abaixo para cadastrar intérprete.",
-            "registerEvent" => "Nova solicitação de TILS para o evento",
+
+            //"registerInterpreter" => "Cadastrar Intérprete",
+            "registerInterpreter" => "Cadastrar Novo Usuário",
+
+            //"registerInterpreterLabel" =>  "Clique no botão abaixo para cadastrar intérprete.",
+            "registerInterpreterLabel" =>  "Clique no botão abaixo para cadastrar novo usuário.",
+
+            "registerEvent" => "Solicitar intérprete para evento",
             "registerEventLabel" => "Clique no botão abaixo para solicitar intérprete para evento.",
-            "newInterpreter" => "Novo Intérprete",
+
+            //"newInterpreter" => "Novo Intérprete",
+            "newInterpreter" => "Novo Usuário",
+
             "name" => "Nome",
-            "email" => "Email",
+            "email" => "E-mail",
             "video-language" => "portugues",
             "video-src" => "pt",
             "video-username-caption" => "/assets/video/1.vtt",
@@ -57,12 +79,23 @@
             "video-informe-data-inicio" => "/assets/video/14.mp4",
             "video-informe-data-fim" => "/assets/video/15.mp4",
             "video-selecione-interprete" => "/assets/video/16.mp4",
-            "reportConfirmInterpreterLabel" => "Clique no botão abaixo para visualizar relatório de solicitação.",
-            "reportConfirmInterpreter" => "Relatório de solicitação",
+
+            //"reportConfirmInterpreterLabel" => "Clique no botão abaixo para visualizar relatório de solicitação.",
+            "reportConfirmInterpreterLabel" => "Clique no botão abaixo para visualizar relatório de solicitação de intérprete para evento.",
+
+            //"reportConfirmInterpreter" => "Relatório de solicitação",
+            "reportConfirmInterpreter" => "Relatório de solicitação de intéprete",
+
             "reportConfirmedInterpreterLabel" => "Clique no botão abaixo para visualizar relatório de intérpretes confirmados em eventos.",
             "reportConfirmedInterpreter" => "Relatório de confirmação",
-            "reportListInterpreterLabel" => "Clique no botão abaixo para visualizar a lista de TILS",
-            "reportListInterpreter" => "Relatório de TILS",
-            "registerNewSLIS" => "Cadastre um novo TILS, informe a nome, email e senha.",
+
+            //"reportListInterpreterLabel" => "Clique no botão abaixo para visualizar a lista de TILS",
+            "reportListInterpreterLabel" => "Clique no botão abaixo para visualizar a lista de intépretes disponíveis.",
+
+            //"reportListInterpreter" => "Relatório de TILS",
+            "reportListInterpreter" => "Relatório de intérpretes",
+
+            //"registerNewSLIS" => "Cadastre um novo TILS, informe a nome, email e senha.",
+            "registerNewSLIS" => "Para cadastrar um novo usuário coloque o nome, e-mail e senha.",
     );
 ?>

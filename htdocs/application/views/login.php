@@ -24,8 +24,9 @@
                     <div class="z-depth-1 lighten-4 row" style="display: inline-block; padding: 32px 48px 0px 48px; border: 1px solid #EEE;">
         
                     <form class="col s12" method="post" action="<?php echo site_url('Login/logUser')?>">
+                        <!-- CAIXA DE TROCA DE LINGUA (EN E PT-BR)
                         <div class='row'>    
-                            <!-- Dropdown Trigger -->
+                            <!-- Dropdown Trigger 
                             <div class="input-field col s12 m6">
                                 <select id="languageSelect" onchange="onChangeLanguage(this);">
                                     <option  disabled selected><?php echo $lang['select'];?></option>
@@ -41,9 +42,12 @@
                                     <option value='lib'>Libras</option>
                                 </select>
                                 <label><?php echo $lang['signlanguage'];?></label>
-                            </div>
+                            </div>                      
 
                         </div>
+
+                        -->
+
                         <img class="responsive-img" style="width: 150px;" src=<?php echo base_url('img/logo.png'); ?> />    
                         <h5 class="indigo-text"><?php echo $lang['loginSubtitle'];?></h5>
                         
@@ -52,12 +56,17 @@
                         <div class="video-container">
                             <video id='username-video' class="responsive-video" controls data-id-video-sl='email'>
                                 <source src=<?php echo $lang['video-username'];?> type="video/mp4">
+                                <!-- RETIRA A LEGENDA DO VÍDEO 1
                                 <track label=<?php echo $lang['video-language'];?> kind="subtitles" srclang=<?php echo $lang['video-src'];?> 
                                        src=<?php echo $lang['video-username-caption'];?> default>
+                                -->       
                             </video>
                             <!-- <iframe id='email-video' width="853" height="480" src=<?php echo $lang['video-username'];?> frameborder="0" allowfullscreen></iframe> -->
                         </div>
+                        <!--
                         <blockquote>Por favor informe o email de login.</blockquote>
+                        -->
+                        <blockquote>Coloque seu e-mail.</blockquote>
                         <div class='row'>
                             <div class='input-field col s12'>   
                                 <a class="material-icons prefix">email</a>
@@ -75,7 +84,11 @@
 
                             <!-- <iframe width="853" height="480" src=<?php echo $lang['video-password'];?> frameborder="0" allowfullscreen></iframe> -->
                         </div>
+                        <!--
                         <blockquote>Por favor informe a senha de login.</blockquote>
+                        -->
+                        <blockquote>Coloque sua senha.</blockquote>
+                        
                         <div class='row'>
                             <div class='input-field col s12'>
                                 <a class="material-icons prefix">lock_outline</a>
@@ -83,7 +96,7 @@
                                 <label for='password'><?php echo $lang['loginPasswordInput'];?></label>
                             </div>
                         </div>
-
+                        
                         <!-- <div class="row" style='float: left;'>        
                             <p>
                                 <label>
@@ -92,13 +105,15 @@
                                 </label>
                             </p>   
                         </div> -->
-
+                        
                         <center>
                             <div class='row'>
                                 <button type='submit' name='submit' value='Submit' id='submitLogin' class='col s12 btn btn-large waves-effect indigo'><?php echo $lang['loginSumbit'];?></button>
                             </div>
                         </center>
-                       
+                        
+
+                        
                         <div class="section"></div>
                     </form>
                     </div>

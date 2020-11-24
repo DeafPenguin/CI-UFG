@@ -35,9 +35,13 @@
                             </div>
 
                         </div>
+
+                        <!-- RETIRA UM BOTÃO NÃO FUNCIONAL NA PÁGINA DE RELATÓRIO DE INTÉRPRETES
                         <div class="card-action">
-                            <a href="<?php echo site_url('Main/slislist?lang=' . $_SESSION['lang'])?>" class="waves-effect waves-light btn-small indigo modal-trigger"><?php echo $lang['reportListInterpreter'];?></a>
+                           <a href="<?php echo site_url('Main/slislist?lang=' . $_SESSION['lang'])?>" class="waves-effect waves-light btn-small indigo modal-trigger"><?php echo $lang['reportListInterpreter'];?></a> 
                         </div>
+                        -->
+
                     </div>
                 </div>   
                 <br/>
